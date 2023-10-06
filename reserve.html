@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Бронь</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form action="a.html" target="_blank">
+   
+    
+    <section id="reservation">
+        <h2>Бронирование стола</h2>
+        <form action="process_reservation.php" method="POST">
+            <label for="name" style="color: aliceblue;">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date" style="color: aliceblue;">Дата:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time" style="color: rgb(245, 252, 252);">Время: </label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Отправить бронирование</button>
+        </form>
+    </section>
+
+</form>
+</body>
+<style>
+    body {
+        background-repeat: no-repeat;
+        background-image: url('https://img.freepik.com/premium-photo/restaurant-blur-background-design-resource_236836-16729.jpg');
+        background-size: 100%;
+        font-family: Arial, sans-serif;
+       
+    }
+
+</style>
+</html>
